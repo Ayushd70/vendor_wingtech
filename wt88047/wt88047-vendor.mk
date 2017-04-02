@@ -333,7 +333,21 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camera.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_ov2680.so:system/vendor/lib/libmmcamera_ov2680.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_ov8865_a11.so:system/vendor/lib/libmmcamera_ov8865_a11.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_ov8865_a11_eeprom.so:system/vendor/lib/libmmcamera_ov8865_a11_eeprom.so
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_ov8865_a11_eeprom.so:system/vendor/lib/libmmcamera_ov8865_a11_eeprom.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so
 
 
 PRODUCT_PACKAGES += \
