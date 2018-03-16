@@ -42,14 +42,14 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-    vendor/volte/ramdisk/init.qti.ims.sh:root/init.qti.ims.sh
+    vendor/wingtech/volte/ramdisk/init.qti.ims.sh:root/init.qti.ims.sh
 
 ifeq ($(FORCE_32_BIT),true)
 PRODUCT_COPY_FILES += \
-    vendor/volte/ramdisk/init.qcom.ims-32.rc:root/init.qcom.ims.rc
+    vendor/wingtech/volte/ramdisk/init.qcom.ims-32.rc:root/init.qcom.ims.rc
 else
 PRODUCT_COPY_FILES += \
-    vendor/volte/ramdisk/init.qcom.ims-64.rc:root/init.qcom.ims.rc
+    vendor//wingtech/volte/ramdisk/init.qcom.ims-64.rc:root/init.qcom.ims.rc
 endif
 
 # Overlay

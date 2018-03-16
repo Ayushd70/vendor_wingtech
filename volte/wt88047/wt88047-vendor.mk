@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/volte/wt88047/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
     vendor/wingtech/volte/wt88047/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/wingtech/volte/wt88047/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/wingtech/olte/wt88047/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
+    vendor/wingtech/volte/wt88047/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
     vendor/wingtech/volte/wt88047/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/wingtech/volte/wt88047/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/wingtech/volte/wt88047/proprietary/vendor/lib/lib-imsvtextutils.so:system/vendor/lib/lib-imsvtextutils.so \
