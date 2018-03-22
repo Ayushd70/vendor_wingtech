@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/volte/ramdisk/init.qcom.ims-32.rc:root/init.qcom.ims.rc
 else
 PRODUCT_COPY_FILES += \
-    vendor//wingtech/volte/ramdisk/init.qcom.ims-64.rc:root/init.qcom.ims.rc
+    vendor/wingtech/volte/ramdisk/init.qcom.ims-64.rc:root/init.qcom.ims.rc
 endif
 
 # Overlay
